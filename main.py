@@ -562,7 +562,7 @@ secure_fs = SecureFileSystem()
 # 🤖 BOT CONFIGURATION & CONSTANTS
 # ============================================
 
-TOKEN = '8941363938:AAEVaQ_tsW6_1-zzjMVNjqRxERA4zwEizX8'
+TOKEN = '8266428218:AAGjrjd3jIC0Lv8V2SNj6xTK3cX1V3-38tI'
 OWNER_ID = 8542876714
 ADMIN_ID = 8542876714
 YOUR_USERNAME = 'NullQor'
