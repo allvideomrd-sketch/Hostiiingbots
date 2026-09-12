@@ -960,7 +960,7 @@ if __name__ == '__main__':
             is_locked INTEGER DEFAULT 0,
             is_deleted INTEGER DEFAULT 0,
             UNIQUE(user_id, file_name)
-        )''')
+        ''')
         
         # Access logs
         c.execute('''CREATE TABLE IF NOT EXISTS access_logs (
