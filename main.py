@@ -2191,18 +2191,20 @@ def _logic_bot_speed(message):
 def _logic_contact_owner(message):
     if not check_subscription_and_continue(message):
         return
+
     markup = types.InlineKeyboardMarkup()
-markup.add(
-    primary_inline_button(
-        '📞 Contact Owner',
-        url='https://t.me/NullQor'
+    markup.add(
+        primary_inline_button(
+            '📞 Contact Owner',
+            url='https://t.me/NullQor'
+        )
     )
-)
-bot.reply_to(
-    message,
-    stylish_text("Contact Owner: @NullQor"),
-    reply_markup=markup
-)
+
+    bot.reply_to(
+        message,
+        stylish_text("Contact Owner: @NullQor"),
+        reply_markup=markup
+    )
 
 def _logic_statistics(message):
     if not check_subscription_and_continue(message):
