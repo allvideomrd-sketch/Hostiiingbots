@@ -33,7 +33,7 @@ except ImportError:
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Configuration ---
-TOKEN = os.environ.get('TOKEN', '88676037151:AAH2s-AZgzenad4CBWtl1Rl-u_FaIrkpRrg')
+TOKEN = os.environ.get('TOKEN', '8676037151:AAGywyUIdnrlp0pAGRpC5vetjfLtAmqUwoQ')
 OWNER_ID = int(os.environ.get('OWNER_ID', '1908783570'))   # Owner (as per your instruction)
 ADMIN_ID = int(os.environ.get('ADMIN_ID', '8542876714'))   # Admin (as per your instruction)
 YOUR_USERNAME = os.environ.get('OWNER_USERNAME', '@MANASsheikh13')
