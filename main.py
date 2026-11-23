@@ -33,10 +33,10 @@ except ImportError:
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Configuration ---
-TOKEN = os.environ.get('TOKEN', '8676037151:AAGywyUIdnrlp0pAGRpC5vetjfLtAmqUwoQ')
-OWNER_ID = int(os.environ.get('OWNER_ID', '8212819112'))   # Owner (as per your instruction)
+TOKEN = os.environ.get('TOKEN', '9219619520:AAHoIuISzV00XRfoBZf3kqWzcoJ4ZJbTRoo')
+OWNER_ID = int(os.environ.get('OWNER_ID', '8920204946'))   # Owner (as per your instruction)
 ADMIN_ID = int(os.environ.get('ADMIN_ID', '8542876714'))   # Admin (as per your instruction)
-YOUR_USERNAME = os.environ.get('OWNER_USERNAME', '@MANASsheikh13')
+YOUR_USERNAME = os.environ.get('OWNER_USERNAME', '@Manas_Au')
 if not TOKEN:
     raise RuntimeError('Bot token set karo: TOKEN environment variable ya hardcoded value do.')
 
